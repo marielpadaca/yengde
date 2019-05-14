@@ -1,0 +1,110 @@
+body {
+	background-color:#fff;
+    background-image: url(firstimage.jpg);
+    background-size: 100% 500%;
+    background-position: 50% 10%;
+    background-repeat: no-repeat;  
+    margin:0;
+    padding:0;
+}
+.navbar{
+	margin:20 0 0 0px;
+}
+.navbar ul{
+	list-style-type: none;
+}
+.navbar li{
+	
+	display: inline;
+
+}
+.navbar a{
+	color:#fff;
+	float:right;
+	margin: 0 75px 0 0px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+
+}
+.navbar a:hover{
+	color:#22DECA;
+	text-decoration: none;
+
+}
+
+.navbar-brand{
+	position: relative;
+}
+
+a.navbar-brand {
+     margin: -55px 0 0 -110px;
+}
+
+
+.navcontainer {
+	margin: -25px 0 0 0;
+}
+.bodypar{
+	position:absolute;
+	top: 30%;
+ 	right: 15%;
+ 	left:10%;
+  	
+}
+.bodypar2 h1{
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size:45px;
+	color: #fff;
+}
+.bodypar2 p{
+	font-family: "Times New Roman", Times, serif;
+	color:#fff;
+	font-size: 18px;
+
+}
+
+#link .link1{
+	position:absolute;
+	top: 75%;
+ 	right: 15%;
+ 	left:10%;
+ 	
+}
+#link .link2{
+	position:absolute;
+	top: 75%;
+ 	right: 0%;
+ 	left:25%;
+ 	
+}
+
+#link a{
+	font-size:22px;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+	padding:10px 40px;
+	text-decoration: none;
+	color:#fff;
+	background-color:#22DECA
+	
+
+}
+#link a:hover{
+	background-color: #fff;
+	color:#22DECA;
+	opacity:1;
+}
+#link a:active{
+	background-color:#22DECA;
+	color:#fff;
+	
+}
+
+.projects{
+	position: absolute;
+    top:105%;
+   left:20%;
+
+}
